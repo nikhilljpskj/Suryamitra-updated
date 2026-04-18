@@ -1,42 +1,3 @@
-<?php
-declare(strict_types=1);
-
-require_once __DIR__ . '/form_helpers.php';
-
-if (($_GET['action'] ?? '') === 'method1_process' && $_SERVER['REQUEST_METHOD'] === 'POST') {
-    $location = sm_clean_line($_POST['location'] ?? '');
-    $unitsPerMonth = sm_clean_line($_POST['units_per_month'] ?? '');
-    $mmsType = sm_clean_line($_POST['mms_type'] ?? '');
-    $lat = sm_clean_line($_POST['lat'] ?? '');
-    $lng = sm_clean_line($_POST['lng'] ?? '');
-
-    if ($location === '' || $unitsPerMonth === '' || $mmsType === '') {
-        sm_render_response('Calculator Request Error', 'Please complete the calculator form before submitting.', 'calculator.php');
-    }
-
-    if (!is_numeric($unitsPerMonth)) {
-        sm_render_response('Calculator Request Error', 'Units per month must be a valid number.', 'calculator.php');
-    }
-
-    $body = implode("\n", [
-        'New solar calculator enquiry received from suryamitra.co.in',
-        '',
-        'Location: ' . $location,
-        'Units Per Month: ' . $unitsPerMonth,
-        'MMS Type: ' . $mmsType,
-        'Latitude: ' . $lat,
-        'Longitude: ' . $lng,
-    ]);
-
-    $sent = sm_send_mail('sales@suryamitra.co.in', 'New Solar Calculator Request', $body);
-
-    if (!$sent) {
-        sm_render_response('Calculator Request Error', 'We could not submit your calculator enquiry right now. Please try again later.', 'calculator.php');
-    }
-
-    sm_render_response('Request Submitted', 'Your calculator request has been shared with our team. We will contact you shortly.', 'calculator.php');
-}
-?>
 <!DOCTYPE html>
 <html lang="en">
    
@@ -76,7 +37,16 @@ if (($_GET['action'] ?? '') === 'method1_process' && $_SERVER['REQUEST_METHOD'] 
       <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&amp;display=swap" rel="stylesheet">
       <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-155349077-1"></script>
-<script type="text/javascript" src="js/jquery-2.0.0.min.js"></script>
+<!-- Global site tag (gtag.js) - Google Ads: 692808125 -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-692808125"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'AW-692808125');
+</script>
+
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
@@ -86,23 +56,6 @@ if (($_GET['action'] ?? '') === 'method1_process' && $_SERVER['REQUEST_METHOD'] 
 </script>
 <!-- - Google Add popup -->
 <script data-ad-client="ca-pub-1444773608596059" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-
-<style>
-.mycalc {
-  border: 2px outset black;
-  float: right;
-  
-  margin: 75px;
-  width: 150%;
-  border-radius: 25px;
-  text-align: center;
-  position:center;
-}
-</style>
-<script src="/js/popper.js"></script>
-	<script src="/js/bootstrap.min.js"></script>
-    <link href="/css/bootstrap.min.css" rel="stylesheet">
-	<script type="text/javascript" src="bootstrap/bootstrap-hover-dropdown-master/bootstrap-hover-dropdown.min.js"></script>
    </head>
    <body>
        
@@ -136,142 +89,53 @@ if (($_GET['action'] ?? '') === 'method1_process' && $_SERVER['REQUEST_METHOD'] 
                               <div class="inner-column">
                                  <!-- Sec Title -->
                                  <div class="sec-title wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
-                                    <h2>Step 1<span>: Select Location</span></h2>
+                                    <h2>Customize your <br><span>Solar Needs!</span></h2>
                                  </div>
                               </div>
                            </div>
                            <!-- Content Column -->
                           
-                         <!-- Form Column -->
+                           <div class="container padt40" style="min-height:500px;">
 
-<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?libraries=places%26key=AIzaSyBfEiWbO-g_7-NfDYwmwQrfQM71tlpFPgk"></script>
-            <script>
-var geocoder = new google.maps.Geocoder();
- function geocodeAddress(address) {
-        
-        geocoder.geocode({'address': address}, function(results, status) {
-          if (status === 'OK') {
-			  
-			  var thisstr = results[0].geometry.location;
-			  //alert(Math.round(thisstr.lat()*100)/100);
-			  //alert(Math.round(thisstr.lng()*100)/100);
-			  $('#lat').val(Math.round(thisstr.lat()*100)/100);
-			  $('#lng').val(Math.round(thisstr.lng()*100)/100);
-			  document.form1.submit();
-            
-          } else {
-            alert('Geocode was not successful for the following reason: ' + status);
-          }
-        });
-      }
-
-</script>
-<script>
-$(document).ready(function() {
-var inputvar = document.getElementById('location');
-var options = {
-  types: ['(cities)'],
-  componentRestrictions: {country: 'in'}
-};
-var autocomplete = new google.maps.places.Autocomplete(inputvar, options);
-});
-</script>	
-<script type="text/javascript" src="js/fancybox/jquery.fancybox.min.js"></script>
-	<link rel="stylesheet" href="js/fancybox/jquery.fancybox.css" type="text/css" media="screen" />
-	<script type="text/javascript">
-	$(document).ready(function() {	
+	<div class="row">
 	
-		$(".fancybox").fancybox({ padding: 0 }); 
+		<div class="col-12 col-sm-12 col-md-12">
 
-         $(".gallery_image").fancybox({
-                prevEffect		: 'none',
-                nextEffect		: 'none',
-				
-                helpers		: {
-					//title	: { type : 'inside' },
-					buttons	: {}
-				}
-            });
-        });
-		</script>
-<script>
-$(document).ready(function(){
-	$( ".owl-prev").html('<i class="fas fa-chevron-left"></i>');
-	$( ".owl-next").html('<i class="fas fa-chevron-right"></i>');
-});
-</script>
-<script>
-$(document).ready(function() {
-	
-	var validator = $("#form1").validate({
-	ignore: "",
-	rules: {
-		location :{required:true},
-		units_per_month : {required:true, number:true, min:1, max:100000},
-		mms_type :{required:true}	
+
+
+<div class="row padb20">
+<div class='col-lg-3 col-md-3 col-sm-12 col-xs-12' style='padding:0 30px 0 0; margin-bottom:20px;'>
 		
-		},
 		
-	errorPlacement: function(error, element) {
-		$('#' + $(element).attr('id')).next('.error_holder').html(error);
-		},
-
-	messages: {
+		<div class='col-lg-12 col-md-12 col-sm-12 col-xs-12' style='background-color:#d5d5d5' align='center'><i class='fa fa-lightbulb fa-5x' aria-hidden='true' style='padding-top:10%; padding-bottom:10%;'></i></div>
+		<div class='col-lg-12 col-md-12 col-sm-12 col-xs-12' style='background-color:#cf7f1d; padding:10%; text-align:center; height:150px;'>
+		<a href="calculator.php?action=method1" style='text-align:center'><p align="center"></p> <i class='fa fa-calculator faa-bounce animated' aria-hidden='true' style='color:#000000;'></i></p>
+		<p class='body_text' style='color:#fff; text-align:center; font-size:18px; line-height:24px;'>Calculate KW required as per your electricity bill (Units per month)</p></a></div></div><div class='col-lg-3 col-md-3 col-sm-12 col-xs-12' style='padding:0 30px 0 0; margin-bottom:20px;'>
 		
-			
-		},
-	submitHandler: function() {
+		
+		    
+		<div class='col-lg-12 col-md-12 col-sm-12 col-xs-12' style='background-color:#d5d5d5' align='center'><i class='fa fa-bolt fa-5x' aria-hidden='true' style='padding-top:10%; padding-bottom:10%;'></i></div>
+		<div class='col-lg-12 col-md-12 col-sm-12 col-xs-12' style='background-color:#cf7f1d; padding:10%; text-align:center; height:150px;'>
+		<a href="calculator.php?action=method2" style='text-align:center'><p align="center"></p> <i class='fa fa-calculator faa-bounce animated' aria-hidden='true' style='color:#000000';></i></p>
+		<p class='body_text' style='color:#fff; text-align:center; font-size:18px; line-height:24px;'>Calculate KW using Load factors</p></a></div></div><div class='col-lg-3 col-md-3 col-sm-12 col-xs-12' style='padding:0 30px 0 0; margin-bottom:20px;'>
+		
+		<div class='col-lg-12 col-md-12 col-sm-12 col-xs-12' style='background-color:#d5d5d5' align='center'><i class='fa fa-sun fa-5x' aria-hidden='true' style='padding-top:10%; padding-bottom:10%;'></i></div>
+		<div class='col-lg-12 col-md-12 col-sm-12 col-xs-12' style='background-color:#cf7f1d; padding:10%; text-align:center; height:150px;'>
+		<a href="calculator.php?action=method3" style='text-align:center'><p align="center"></p><i class='fa fa-calculator faa-bounce animated' aria-hidden='true' style='color:#000000;'></i></p>
+		<p class='body_text' style='color:#fff; text-align:center; font-size:18px; line-height:24px;'>Calculate if you know the KW requirements</p></a></div></div><div class='col-lg-3 col-md-3 col-sm-12 col-xs-12' style='padding:0 30px 0 0; margin-bottom:20px;'>
+		
+		<div class='col-lg-12 col-md-12 col-sm-12 col-xs-12' style='background-color:#d5d5d5' align='center'><i class='fa fa-chart-area fa-5x' aria-hidden='true' style='padding-top:10%; padding-bottom:10%;'></i></div>
+		<div class='col-lg-12 col-md-12 col-sm-12 col-xs-12' style='background-color:#cf7f1d; padding:10%; text-align:center; height:150px;'>
+		<a href="calculator.php?action=method4" style='text-align:center'><p align="center"></p><i class='fa fa-calculator faa-bounce animated' aria-hidden='true' style='color:#000000;'></i></p>
+		<p class='body_text' style='color:#fff; text-align:center; font-size:18px; line-height:24px;'>Calculate using available area (sq ft) for installation</p></a></div></div></div>
 
-			document.form1.submit();
-			//alert('submitted');
-				
-		}
-	});
- 
-});
-</script>
-<script>
-$(document).ready(function(){
-	$( ".owl-prev").html('<i class="fas fa-chevron-left"></i>');
-	$( ".owl-next").html('<i class="fas fa-chevron-right"></i>');
-});
-</script>
-	  
-
-
-
-
-                     <form method="post" action="calculator.php?action=method1_process" name="form1" id="form1"><br><br><br><br>
-<input type="hidden" name="lat" id="lat" value="">
-<input type="hidden" name="lng" id="lng" value="">
-
-<table class="table">
-    
-<tr><td>Location: </td><td><input type="text" name="location"  id="location" class="form-control" style="max-width:350px;"><div class="error_holder"></div></td></tr>
-<tr><td>Units Per Month (As per your bill): </td><td><input type="text" name="units_per_month"  id="units_per_month" class="form-control" style="max-width:350px;"><div class="error_holder"></div></td></tr>
-<tr><td>Select MMS Type: </td><td>
-<select name="mms_type" id="mms_type" class="form-control" style="max-width:350px;">
-<option value="">-- Select MMS Type --</option>
-<option value="RCC Terrace Penetrating">RCC Terrace Penetrating</option>
-<option value="RCC Terrace Non Penetrating with Counterweight">RCC Terrace Non Penetrating with Counterweight</option>
-<option value="Trapezoidal Roof Penetrating">Trapezoidal Roof Penetrating</option>
-<option value="ClipLock type Non Penetrating on Trapezoidal Roof with Bonding Chemical">ClipLock type Non Penetrating on Trapezoidal Roof with Bonding Chemical</option>
-<option value="Ground Mount">Ground Mount</option>
-<option value="Superstructure">Superstructure</option>
-</select>
-
-<div class="error_holder"></div>
-</td></tr>
-<tr><td>&nbsp;</td><td><input type="submit" class="btn btn-primary btn-style-five animated" value="Submit" onclick="javascript:geocodeAddress($('#location').val());"></td></tr>
-</table>
-</form>
-                        
-                  </div>
-                  
-               </div>
-            </div>
+		</div>
+	</div>
+</div>
                        
-                    
+                        </div>
+                     </div>
+                   </div>  
                </section>
                
                <!-- End Design Section -->

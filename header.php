@@ -13,25 +13,25 @@ if ($currentPage === '' || $currentPage === '/') {
 }
 
 $sectionMap = [
-    'home' => ['index.php', 'index.html', 'index-2.html', 'index-3.html', 'tata.html'],
-    'company' => ['about.html', 'director-desk.html', 'company-milestones.html', 'client-testimonial.html'],
+    'home' => ['index.php', 'index.html', 'index-2.php', 'index-3.php', 'tata.php'],
+    'company' => ['about.php', 'director-desk.php', 'company-milestones.php', 'client-testimonial.php'],
     'products' => [
-        'epcb9ca.html',
-        'epc83cc.html',
-        'waaree-products65e1.html',
-        'waaree-products88e9.html',
-        'waaree-products290d.html',
-        'waaree-productsa83e.html',
-        'waaree-products1164.html',
-        'solar-model9c2a.html',
-        'solar-modelb1de.html',
-        'solar-farma8f2.html',
-        'solar-farmf31c.html',
+        'epcb9ca.php',
+        'epc83cc.php',
+        'waaree-products65e1.php',
+        'waaree-products88e9.php',
+        'waaree-products290d.php',
+        'waaree-productsa83e.php',
+        'waaree-products1164.php',
+        'solar-model9c2a.php',
+        'solar-modelb1de.php',
+        'solar-farma8f2.php',
+        'solar-farmf31c.php',
     ],
-    'gallery' => ['project-gallery.html', 'completed-project.html', 'celebration.html', 'suryamitra-team.html'],
-    'career' => ['career.html'],
-    'news' => ['whats-new.html'],
-    'contact' => ['contact.html', 'contact-2.html'],
+    'gallery' => ['project-gallery.php', 'completed-project.php', 'celebration.php', 'suryamitra-team.php'],
+    'career' => ['career-page.php'],
+    'news' => ['whats-new.php'],
+    'contact' => ['contact-page.php', 'contact-2.php'],
 ];
 
 $currentSection = '';
@@ -68,58 +68,58 @@ $isSection = static function (string $section) use ($currentSection): string {
                             <li class="<?php echo $isSection('home'); ?>"><a href="index.php">Home</a></li>
                             <li class="dropdown <?php echo $isSection('company'); ?>"><a href="#">Company</a>
                                 <ul>
-                                    <li><a href="about.html">Company Profile</a></li>
-                                    <li><a href="director-desk.html">Director's Desk</a></li>
-                                    <li><a href="company-milestones.html">Company Milestones</a></li>
-                                    <li><a href="client-testimonial.html">Client's Testimonials</a></li>
+                                    <li><a href="about.php">Company Profile</a></li>
+                                    <li><a href="director-desk.php">Director's Desk</a></li>
+                                    <li><a href="company-milestones.php">Company Milestones</a></li>
+                                    <li><a href="client-testimonial.php">Client's Testimonials</a></li>
                                 </ul>
                             </li>
                             <li class="dropdown <?php echo $isSection('products'); ?>"><a href="#">Products &amp; Solutions</a>
                                 <ul>
                                     <li class="dropdown"><a href="#">EPC</a>
                                         <ul>
-                                            <li><a href="epcb9ca.html?product=Residential-Solar-Rooftop">Residential Solar Rooftop</a></li>
-                                            <li><a href="epc83cc.html?product=Commercial-and-Industrial-Solar-Plant">Commercial and Industrial Solar Plant</a></li>
+                                            <li><a href="epcb9ca.php?product=Residential-Solar-Rooftop">Residential Solar Rooftop</a></li>
+                                            <li><a href="epc83cc.php?product=Commercial-and-Industrial-Solar-Plant">Commercial and Industrial Solar Plant</a></li>
                                         </ul>
                                     </li>
                                     <li class="dropdown"><a href="#">WAAREE Products</a>
                                         <ul>
-                                            <li><a href="waaree-products65e1.html?product=PV-Module">PV Module</a></li>
-                                            <li><a href="waaree-products88e9.html?product=Inverter">Inverter</a></li>
-                                            <li><a href="waaree-products290d.html?product=Batteries">Batteries</a></li>
-                                            <li><a href="waaree-productsa83e.html?product=Solar-Water-Pump">Solar Water Pump</a></li>
-                                            <li><a href="waaree-products1164.html?product=Solar-Thermal">Solar Thermal</a></li>
+                                            <li><a href="waaree-products65e1.php?product=PV-Module">PV Module</a></li>
+                                            <li><a href="waaree-products88e9.php?product=Inverter">Inverter</a></li>
+                                            <li><a href="waaree-products290d.php?product=Batteries">Batteries</a></li>
+                                            <li><a href="waaree-productsa83e.php?product=Solar-Water-Pump">Solar Water Pump</a></li>
+                                            <li><a href="waaree-products1164.php?product=Solar-Thermal">Solar Thermal</a></li>
                                         </ul>
                                     </li>
-                                    <li><a href="solar-model9c2a.html?product=CAPEX-BOOT-solar-model">CAPEX / BOOT solar model</a></li>
-                                    <li><a href="solar-modelb1de.html?product=OPEX-RESCO-solar-model">OPEX / RESCO solar model</a></li>
+                                    <li><a href="solar-model9c2a.php?product=CAPEX-BOOT-solar-model">CAPEX / BOOT solar model</a></li>
+                                    <li><a href="solar-modelb1de.php?product=OPEX-RESCO-solar-model">OPEX / RESCO solar model</a></li>
                                     <li class="dropdown"><a href="#">Solar Farm</a>
                                         <ul>
-                                            <li><a href="solar-farma8f2.html?product=Third-Party-(Open-Access)">Third Party (Open Access)</a></li>
-                                            <li><a href="solar-farmf31c.html?product=Group-Captive">Group Captive</a></li>
+                                            <li><a href="solar-farma8f2.php?product=Third-Party-(Open-Access)">Third Party (Open Access)</a></li>
+                                            <li><a href="solar-farmf31c.php?product=Group-Captive">Group Captive</a></li>
                                         </ul>
                                     </li>
                                 </ul>
                             </li>
                             <li class="dropdown <?php echo $isSection('gallery'); ?>"><a href="#">Gallery</a>
                                 <ul>
-                                    <li><a href="project-gallery.html">Project Gallery</a></li>
-                                    <li><a href="completed-project.html">Completed Projects</a></li>
-                                    <li><a href="celebration.html">Celebration</a></li>
-                                    <li><a href="suryamitra-team.html">Surya Mitra's Family</a></li>
+                                    <li><a href="project-gallery.php">Project Gallery</a></li>
+                                    <li><a href="completed-project.php">Completed Projects</a></li>
+                                    <li><a href="celebration.php">Celebration</a></li>
+                                    <li><a href="suryamitra-team.php">Surya Mitra's Family</a></li>
                                 </ul>
                             </li>
                             <li><a href="https://www.waaree.com/blog" target="_blank" rel="noopener">Blog</a></li>
-                            <li class="<?php echo $isSection('career'); ?>"><a href="career.html">Career</a></li>
-                            <li class="<?php echo $isSection('news'); ?>"><a href="whats-new.html" class="blinking-text">What's New</a></li>
-                            <li class="<?php echo $isSection('contact'); ?>"><a href="contact.html">Contact Us</a></li>
+                            <li class="<?php echo $isSection('career'); ?>"><a href="career-page.php">Career</a></li>
+                            <li class="<?php echo $isSection('news'); ?>"><a href="whats-new.php" class="blinking-text">What's New</a></li>
+                            <li class="<?php echo $isSection('contact'); ?>"><a href="contact-page.php">Contact Us</a></li>
                         </ul>
                     </div>
                 </nav>
 
                 <div class="outer-box clearfix">
                     <div class="btn-box">
-                        <a href="download-brochure.html" class="contact-btn btn-style-one">Download</a>
+                        <a href="download-brochure.php" class="contact-btn btn-style-one">Download</a>
                     </div>
                 </div>
             </div>
@@ -138,37 +138,37 @@ $isSection = static function (string $section) use ($currentSection): string {
                             <li class="<?php echo $isSection('home'); ?>"><a href="index.php">Home</a></li>
                             <li class="dropdown <?php echo $isSection('company'); ?>"><a href="#">Company</a>
                                 <ul>
-                                    <li><a href="about.html">Company Profile</a></li>
-                                    <li><a href="director-desk.html">Director's Desk</a></li>
-                                    <li><a href="company-milestones.html">Company Milestones</a></li>
-                                    <li><a href="client-testimonial.html">Client's Testimonials</a></li>
+                                    <li><a href="about.php">Company Profile</a></li>
+                                    <li><a href="director-desk.php">Director's Desk</a></li>
+                                    <li><a href="company-milestones.php">Company Milestones</a></li>
+                                    <li><a href="client-testimonial.php">Client's Testimonials</a></li>
                                 </ul>
                             </li>
                             <li class="dropdown <?php echo $isSection('products'); ?>"><a href="#">Products &amp; Solutions</a>
                                 <ul>
                                     <li class="dropdown"><a href="#">EPC</a>
                                         <ul>
-                                            <li><a href="epcb9ca.html?product=Residential-Solar-Rooftop">Residential Solar Rooftop</a></li>
-                                            <li><a href="epc83cc.html?product=Commercial-and-Industrial-Solar-Plant">Commercial and Industrial Solar Plant</a></li>
+                                            <li><a href="epcb9ca.php?product=Residential-Solar-Rooftop">Residential Solar Rooftop</a></li>
+                                            <li><a href="epc83cc.php?product=Commercial-and-Industrial-Solar-Plant">Commercial and Industrial Solar Plant</a></li>
                                         </ul>
                                         <div class="dropdown-btn"><span class="fa fa-angle-down"></span></div>
                                     </li>
                                     <li class="dropdown"><a href="#">WAAREE Products</a>
                                         <ul>
-                                            <li><a href="waaree-products65e1.html?product=PV-Module">PV Module</a></li>
-                                            <li><a href="waaree-products88e9.html?product=Inverter">Inverter</a></li>
-                                            <li><a href="waaree-products290d.html?product=Batteries">Batteries</a></li>
-                                            <li><a href="waaree-productsa83e.html?product=Solar-Water-Pump">Solar Water Pump</a></li>
-                                            <li><a href="waaree-products1164.html?product=Solar-Thermal">Solar Thermal</a></li>
+                                            <li><a href="waaree-products65e1.php?product=PV-Module">PV Module</a></li>
+                                            <li><a href="waaree-products88e9.php?product=Inverter">Inverter</a></li>
+                                            <li><a href="waaree-products290d.php?product=Batteries">Batteries</a></li>
+                                            <li><a href="waaree-productsa83e.php?product=Solar-Water-Pump">Solar Water Pump</a></li>
+                                            <li><a href="waaree-products1164.php?product=Solar-Thermal">Solar Thermal</a></li>
                                         </ul>
                                         <div class="dropdown-btn"><span class="fa fa-angle-down"></span></div>
                                     </li>
-                                    <li><a href="solar-model9c2a.html?product=CAPEX-BOOT-solar-model">CAPEX / BOOT solar model</a></li>
-                                    <li><a href="solar-modelb1de.html?product=OPEX-RESCO-solar-model">OPEX / RESCO solar model</a></li>
+                                    <li><a href="solar-model9c2a.php?product=CAPEX-BOOT-solar-model">CAPEX / BOOT solar model</a></li>
+                                    <li><a href="solar-modelb1de.php?product=OPEX-RESCO-solar-model">OPEX / RESCO solar model</a></li>
                                     <li class="dropdown"><a href="#">Solar Farm</a>
                                         <ul>
-                                            <li><a href="solar-farma8f2.html?product=Third-Party-(Open-Access)">Third Party (Open Access)</a></li>
-                                            <li><a href="solar-farmf31c.html?product=Group-Captive">Group Captive</a></li>
+                                            <li><a href="solar-farma8f2.php?product=Third-Party-(Open-Access)">Third Party (Open Access)</a></li>
+                                            <li><a href="solar-farmf31c.php?product=Group-Captive">Group Captive</a></li>
                                         </ul>
                                         <div class="dropdown-btn"><span class="fa fa-angle-down"></span></div>
                                     </li>
@@ -176,22 +176,22 @@ $isSection = static function (string $section) use ($currentSection): string {
                             </li>
                             <li class="dropdown <?php echo $isSection('gallery'); ?>"><a href="#">Gallery</a>
                                 <ul>
-                                    <li><a href="project-gallery.html">Project Gallery</a></li>
-                                    <li><a href="completed-project.html">Completed Projects</a></li>
-                                    <li><a href="celebration.html">Celebration</a></li>
-                                    <li><a href="suryamitra-team.html">Surya Mitra's Family</a></li>
+                                    <li><a href="project-gallery.php">Project Gallery</a></li>
+                                    <li><a href="completed-project.php">Completed Projects</a></li>
+                                    <li><a href="celebration.php">Celebration</a></li>
+                                    <li><a href="suryamitra-team.php">Surya Mitra's Family</a></li>
                                 </ul>
                             </li>
                             <li><a href="https://www.waaree.com/blog" target="_blank" rel="noopener">Blog</a></li>
-                            <li class="<?php echo $isSection('career'); ?>"><a href="career.html">Career</a></li>
-                            <li class="<?php echo $isSection('news'); ?>"><a href="whats-new.html" class="blinking-text">What's New</a></li>
-                            <li class="<?php echo $isSection('contact'); ?>"><a href="contact.html">Contact Us</a></li>
+                            <li class="<?php echo $isSection('career'); ?>"><a href="career-page.php">Career</a></li>
+                            <li class="<?php echo $isSection('news'); ?>"><a href="whats-new.php" class="blinking-text">What's New</a></li>
+                            <li class="<?php echo $isSection('contact'); ?>"><a href="contact-page.php">Contact Us</a></li>
                         </ul>
                     </div>
                 </nav>
                 <div class="outer-box clearfix">
                     <div class="btn-box">
-                        <a href="download-brochure.html" class="contact-btn btn-style-one">Download</a>
+                        <a href="download-brochure.php" class="contact-btn btn-style-one">Download</a>
                     </div>
                 </div>
             </div>

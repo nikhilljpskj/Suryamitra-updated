@@ -4,7 +4,7 @@ declare(strict_types=1);
 require __DIR__ . '/form_helpers.php';
 
 if ($_SERVER['REQUEST_METHOD'] !== 'POST') {
-    sm_render_response('Invalid Request', 'Please submit the survey form from the website.', 'booksurvey.html');
+    sm_render_response('Invalid Request', 'Please submit the survey form from the website.', 'booksurvey.php');
 }
 
 $name = sm_clean_line($_POST['sname'] ?? '');
@@ -16,11 +16,11 @@ $pin = sm_clean_line($_POST['spin'] ?? '');
 $electricityBill = sm_clean_line($_POST['selectric'] ?? '');
 
 if ($name === '' || $phone === '' || $email === '' || $state === '' || $city === '' || $pin === '' || $electricityBill === '') {
-    sm_render_response('Survey Request Error', 'Please complete the site survey form with valid details.', 'booksurvey.html');
+    sm_render_response('Survey Request Error', 'Please complete the site survey form with valid details.', 'booksurvey.php');
 }
 
 if (strlen($phone) < 10 || strlen($phone) > 15) {
-    sm_render_response('Survey Request Error', 'Please enter a valid mobile number.', 'booksurvey.html');
+    sm_render_response('Survey Request Error', 'Please enter a valid mobile number.', 'booksurvey.php');
 }
 
 $body = implode("\n", [
@@ -38,7 +38,7 @@ $body = implode("\n", [
 $sent = sm_send_mail('sales@suryamitra.co.in', 'New Customer Site Survey Request', $body, $email);
 
 if (!$sent) {
-    sm_render_response('Survey Request Error', 'We could not submit your site survey request right now. Please try again later.', 'booksurvey.html');
+    sm_render_response('Survey Request Error', 'We could not submit your site survey request right now. Please try again later.', 'booksurvey.php');
 }
 
-sm_render_response('Request Submitted', 'Thank you for requesting a free site survey. We will contact you very soon.', 'booksurvey.html');
+sm_render_response('Request Submitted', 'Thank you for requesting a free site survey. We will contact you very soon.', 'booksurvey.php');

@@ -1,42 +1,3 @@
-<?php
-declare(strict_types=1);
-
-require_once __DIR__ . '/form_helpers.php';
-
-if (($_GET['action'] ?? '') === 'method1_process' && $_SERVER['REQUEST_METHOD'] === 'POST') {
-    $location = sm_clean_line($_POST['location'] ?? '');
-    $unitsPerMonth = sm_clean_line($_POST['units_per_month'] ?? '');
-    $mmsType = sm_clean_line($_POST['mms_type'] ?? '');
-    $lat = sm_clean_line($_POST['lat'] ?? '');
-    $lng = sm_clean_line($_POST['lng'] ?? '');
-
-    if ($location === '' || $unitsPerMonth === '' || $mmsType === '') {
-        sm_render_response('Calculator Request Error', 'Please complete the calculator form before submitting.', 'calculator.php');
-    }
-
-    if (!is_numeric($unitsPerMonth)) {
-        sm_render_response('Calculator Request Error', 'Units per month must be a valid number.', 'calculator.php');
-    }
-
-    $body = implode("\n", [
-        'New solar calculator enquiry received from suryamitra.co.in',
-        '',
-        'Location: ' . $location,
-        'Units Per Month: ' . $unitsPerMonth,
-        'MMS Type: ' . $mmsType,
-        'Latitude: ' . $lat,
-        'Longitude: ' . $lng,
-    ]);
-
-    $sent = sm_send_mail('sales@suryamitra.co.in', 'New Solar Calculator Request', $body);
-
-    if (!$sent) {
-        sm_render_response('Calculator Request Error', 'We could not submit your calculator enquiry right now. Please try again later.', 'calculator.php');
-    }
-
-    sm_render_response('Request Submitted', 'Your calculator request has been shared with our team. We will contact you shortly.', 'calculator.php');
-}
-?>
 <!DOCTYPE html>
 <html lang="en">
    
@@ -99,10 +60,6 @@ if (($_GET['action'] ?? '') === 'method1_process' && $_SERVER['REQUEST_METHOD'] 
   position:center;
 }
 </style>
-<script src="/js/popper.js"></script>
-	<script src="/js/bootstrap.min.js"></script>
-    <link href="/css/bootstrap.min.css" rel="stylesheet">
-	<script type="text/javascript" src="bootstrap/bootstrap-hover-dropdown-master/bootstrap-hover-dropdown.min.js"></script>
    </head>
    <body>
        
@@ -143,7 +100,13 @@ if (($_GET['action'] ?? '') === 'method1_process' && $_SERVER['REQUEST_METHOD'] 
                            <!-- Content Column -->
                           
                          <!-- Form Column -->
-
+ <script type="text/javascript">
+/* <![CDATA[ */
+var google_conversion_id = 991654591;
+var google_conversion_label = "hZIxCK7ygnsQv-Xt2AM";
+var google_remarketing_only = false;
+/* ]]> */
+</script>
 <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?libraries=places%26key=AIzaSyBfEiWbO-g_7-NfDYwmwQrfQM71tlpFPgk"></script>
             <script>
 var geocoder = new google.maps.Geocoder();
@@ -167,14 +130,14 @@ var geocoder = new google.maps.Geocoder();
 
 </script>
 <script>
-$(document).ready(function() {
-var inputvar = document.getElementById('location');
-var options = {
-  types: ['(cities)'],
-  componentRestrictions: {country: 'in'}
-};
-var autocomplete = new google.maps.places.Autocomplete(inputvar, options);
+$(document).ready(function () {
+   google.maps.event.addDomListener(window, 'load', initialize);
 });
+
+function initialize() {
+    var input = document.getElementById('location');
+    var autocomplete = new google.maps.places.Autocomplete(input);
+}
 </script>	
 <script type="text/javascript" src="js/fancybox/jquery.fancybox.min.js"></script>
 	<link rel="stylesheet" href="js/fancybox/jquery.fancybox.css" type="text/css" media="screen" />
@@ -262,7 +225,7 @@ $(document).ready(function(){
 
 <div class="error_holder"></div>
 </td></tr>
-<tr><td>&nbsp;</td><td><input type="submit" class="btn btn-primary btn-style-five animated" value="Submit" onclick="javascript:geocodeAddress($('#location').val());"></td></tr>
+<tr><td>&nbsp;</td><td><input type="submit" class="btn btn-primary btn-style-five animated" value="Submit" onclick="javascript:geocodeAddress(%26('#location').val());"></td></tr>
 </table>
 </form>
                         

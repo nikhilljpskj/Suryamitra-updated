@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+   
+
+<head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="keywords" content="price of solar panel for home">
+      <meta name="keywords" content="solar PV panel price">
+      <meta name="description" content="Know the exact price of solar panel for home in India. Get expert advice, PV panel rates, and installation support from SuryaMitra. Go solar and save more!">
+      <meta name="twitter:card" content="summary"><meta name="twitter:site" content="@suryamitraente2"><meta name="twitter:title" content="Surya Mitra India"><meta name="twitter:description" content="Best Solar Energy Equipment Supplier in Jharkhand">
+      <meta property="og:title" content="Price of Solar Panel for Home | Affordable PV Panel Rates">
+      <meta property="og:site_name" content="Suryamitra">
+      <meta property="og:url" content="https://suryamitra.co.in/">
+      <meta property="og:description" content="Know the exact price of solar panel for home in India. Get expert advice, PV panel rates, and installation support from SuryaMitra. Go solar and save more!">
+      <meta property="og:type" content="website">
+      <meta property="og:image" content="/img/SMIPL.jpeg">
+      <title>Price of Solar Panel for Home | Affordable PV Panel Rates</title>
+      <!-- Stylesheets -->
+      <link href="https://suryamitra.co.in/about.php" rel="canonical">
+      <link href="css/bootstrap.css" rel="stylesheet">
+      <link href="plugins/revolution/css/settings.css" rel="stylesheet" type="text/css">
+      <!-- REVOLUTION SETTINGS STYLES -->
+      <link href="plugins/revolution/css/layers.css" rel="stylesheet" type="text/css">
+      <!-- REVOLUTION LAYERS STYLES -->
+      <link href="plugins/revolution/css/navigation.css" rel="stylesheet" type="text/css">
+      <!-- REVOLUTION NAVIGATION STYLES -->
+      <link href="css/style.css" rel="stylesheet">
+      <link href="css/responsive.css" rel="stylesheet">
+      <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+      <link rel="icon" href="images/favicon.png" type="image/x-icon">
+      <!-- Responsive -->
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+      <link rel="stylesheet" href="css/fontawesome-all.css">
+      <!-- -- fonts -->
+      <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&amp;display=swap" rel="stylesheet">
+      <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-155349077-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-155349077-1');
+</script>
+<!-- - Google Add popup -->
+<script data-ad-client="ca-pub-1444773608596059" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Global site tag (gtag.js) - Google Ads: 692808125 -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-692808125"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'AW-692808125');
+</script>
+
+   </head>
+   <body>
+      <div class="page-wrapper">
+      <!-- Preloader -->
+      <!-- <div class="preloader"></div> -->
+      <!-- main header -->
+  <?php include __DIR__ . '/header.php'; ?>
+   <!-- End Main Header -->
+<section class="page-banner style-two" style="background-image:url(images/top-banner/about.jpg)">
+   <div class="auto-container">
+      <div class="inner-container clearfix">
+         <h1>Price of Solar Panel for Home in India</h1>
+         <ul class="bread-crumb clearfix">
+            <li><a href="index.php">Home</a></li>
+            <li><a href="#">Solar Solutions</a></li>
+            <li>Price of Solar Panel for Home</li>
+         </ul>
+      </div>
+   </div>
+</section>
+<div class="container">
+   <div class="row">
+      <div class="main">
+         <section class="design-section">
+            <div class="auto-container">
+               <div class="upper-section">
+                  <div class="row clearfix">
+                     <div class="content-column col-lg-12 col-md-12 col-sm-12">
+                        <div class="inner-column wow fadeInRight" data-wow-delay="0ms" data-wow-duration="3000ms">
+
+                           <div class="title-column col-lg-12 col-md-12 col-sm-12">
+                              <div class="inner-column">
+                                 <div class="sec-title wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
+                                    <h2>💡 Price of Solar Panel for Home – Affordable Solar Energy for Every Household</h2>
+                                 </div>
+                              </div>
+                           </div>
+
+                           <p style="line-height: 1.8;">Curious about the <b>price of solar panel for a home in India</b>? At SuryaMitra Renewables, we believe solar power should be accessible, affordable, and easy to understand. That’s why we’re here to simplify the process—so you know exactly what you’re paying for, and what you’ll save.</p>
+
+                           <p style="line-height: 1.8;">Whether you're looking to power a small home or a multi-storey house, we offer high-efficiency panels, honest pricing, and full support, from consultation to installation.</p>
+
+                           <div class="text" style="line-height: 1.8;">
+                              <h4><b>What is the Price of Solar Panel for Home in India?</b></h4>
+                              <p></p>
+                              <p>The price of solar panel for home depends on a few key factors:</p>
+                              <ul style="line-height: 2;">
+                                 <li><b>Energy Consumption:</b> The more power you need, the more panels (and higher capacity) your system will require.</li>
+                                 <li><b>Type of Solar System:</b> On-grid, off-grid, or hybrid systems each come with different components.</li>
+                                 <li><b>Panel Type:</b> Premium options like Monocrystalline are slightly more expensive but offer better efficiency.</li>
+                                 <li><b>Brand & Warranty:</b> Trusted brands like Tata Power Solar (used by SuryaMitra) offer longer warranties and durable performance.</li>
+                              </ul>
+                              <p></p>
+
+                              <p><b>👉 Average Solar PV Panel Price in India (Residential Use):</b></p>
+                              <ul style="line-height: 2;">
+                                 <li><b>Per Watt Cost (Panel Only):</b> ₹25 – ₹35</li>
+                                 <li><b>Complete Rooftop System (3kW to 5kW):</b> ₹1.2 – ₹2.2 lakh (including installation, inverter, and wiring)</li>
+                              </ul>
+                              <p></p>
+
+                              <p>We offer subsidized solar systems for homeowners through government-approved programs, and we handle the paperwork for you!</p>
+
+                              <h4><b>Why Choose SuryaMitra for Your Home Solar System?</b></h4>
+                              <p></p>
+                              <ul style="line-height: 2;">
+                                 <li><b>✔️ Free Site Survey</b> — We assess your home’s rooftop and energy usage before recommending any solution.</li>
+                                 <li><b>✔️ Clear, Transparent Pricing</b> — No hidden charges. What we quote is what you pay. Get a detailed breakdown of your solar PV panel price and complete system cost.</li>
+                                 <li><b>✔️ Top-Quality Panels with Warranty</b> — We use BIS and MNRE-approved solar panels with up to 25 years of performance warranty.</li>
+                                 <li><b>✔️ Hassle-Free Installation</b> — Our expert team ensures safe and quick installation, usually within a few days of approval.</li>
+                                 <li><b>✔️ After-Sales Support You Can Count On</b> — From net metering to AMC (Annual Maintenance Contracts), we’re with you every step of the way.</li>
+                              </ul>
+                              <p></p>
+
+                              <h4><b>Get Your Custom Home Solar Quote Today</b></h4>
+                              <p></p>
+                              <p>Want to know the exact price of solar panel for home based on your location and usage?</p>
+
+                              <p>
+                                 📞 <b>Call us at:</b> 1800 889 6542<br>
+                                 📧 <b>Email:</b> <a href="mailto:sales@suryamitra.co.in">sales@suryamitra.co.in</a><br>
+                                 🖩 <b>Try our Online Calculator</b> to check savings and panel size.
+                              </p>
+
+                              <p><b>Let SuryaMitra power your home with clean, affordable energy.</b></p>
+                           </div>
+
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+      </div>
+   </div>
+</div>
+
+
+
+    
+      <?php include __DIR__ . '/footer.php'; ?>
+<!--End pagewrapper-->
+      <!--Scroll to top-->
+      <div class="scroll-to-top scroll-to-target" data-target="html"><span class="fa fa-angle-up"></span></div>
+      <!--Scroll to top-->
+      <script src="js/jquery.js"></script>
+      <script src="js/popper.min.js"></script>
+      <script src="js/bootstrap.min.js"></script>
+      <!--Revolution Slider-->
+     
+      <!--Revolution Slider-->
+      <script src="js/jquery-ui.js"></script>
+      <script src="js/jquery.fancybox.js"></script>
+      <script src="js/owl.js"></script>
+      <script src="js/wow.js"></script>
+      <script src="js/appear.js"></script>
+      <script src="js/script.js"></script>
+   </body>
+
+<!-- Mirrored from www.suryamitra.co.in/about by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 14 Aug 2020 10:01:29 GMT -->
+</html>

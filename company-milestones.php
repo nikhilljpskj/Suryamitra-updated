@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+   
+
+<head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+      <meta name="keywords" content="Solar, Rooftop, Sustainable energy, future, PV Power, SPV, Ground Mounted, Solar Power Plant, Grid Connected, Offgrid, Hybrid, Waaree, UTL, Flin">
+      <meta name="description" content="Surya Mitra has made space in TOP EPCs of JHARKHAND - by successfully completing several projects in one year.">
+      <meta name="twitter:card" content="summary"><meta name="twitter:site" content="@suryamitraente2"><meta name="twitter:title" content="Surya Mitra India"><meta name="twitter:description" content="Best Solar Energy Equipment Supplier in Jharkhand">
+      <meta property="og:title" content="Surya Mitra India">
+      <meta property="og:site_name" content="Suryamitra">
+      <meta property="og:url" content="https://suryamitra.co.in/">
+      <meta property="og:description" content="Best Solar Energy Equipment supplier in Jharkhand">
+      <meta property="og:type" content="website">
+      <meta property="og:image" content="/img/SMIPL.jpeg">
+      <title>Company Milestones | SuryaMitra Renewables Pvt. Ltd.</title>
+      <!-- Stylesheets -->
+      <link href="https://suryamitra.co.in/company-milestones.php" rel="canonical">
+      <link href="css/bootstrap.css" rel="stylesheet">
+      <link href="plugins/revolution/css/settings.css" rel="stylesheet" type="text/css">
+      <!-- REVOLUTION SETTINGS STYLES -->
+      <link href="plugins/revolution/css/layers.css" rel="stylesheet" type="text/css">
+      <!-- REVOLUTION LAYERS STYLES -->
+      <link href="plugins/revolution/css/navigation.css" rel="stylesheet" type="text/css">
+      <!-- REVOLUTION NAVIGATION STYLES -->
+      <link href="css/style.css" rel="stylesheet">
+      <link href="css/responsive.css" rel="stylesheet">
+      <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+      <link rel="icon" href="images/favicon.png" type="image/x-icon">
+      <!-- Responsive -->
+      <link rel="stylesheet" href="css/fontawesome-all.css">
+      <!-- -- fonts -->
+      <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&amp;display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Playfair+Display+SC&amp;display=swap" rel="stylesheet">
+      <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-155349077-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-155349077-1');
+</script>
+<!-- - Google Add popup -->
+<script data-ad-client="ca-pub-1444773608596059" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Global site tag (gtag.js) - Google Ads: 692808125 -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-692808125"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'AW-692808125');
+</script>
+
+   </head>
+   <body>
+      <div class="page-wrapper">
+      <!-- Preloader -->
+      <!-- <div class="preloader"></div> -->
+     <!-- main header -->
+  <?php include __DIR__ . '/header.php'; ?>
+  <!-- End Main Header -->
+      <section class="page-banner style-two" style="background-image:url(images/top-banner/milestones.jpg);">
+         <div class="auto-container">
+            <div class="inner-container clearfix">
+               <h1>Company Milestones</h1>
+               <ul class="bread-crumb clearfix">
+                  <li><a href="index.php">Home</a></li>
+                  <li><a href="#">Company</a></li>
+                  <li>Company Milestones</li>
+               </ul>
+            </div>
+         </div>
+      </section>
+      <div class="container">
+         <div class="row">
+            <!-- Design Section -->
+            <div class="main">
+             <!-- Features Section Two -->
+     <!-- Team Section -->
+    <!-- Fluid Section Two -->
+    <section class="fluid-section-two">
+        <div class="image-layer" style="background-image:url(images/resource/image-2.html)"></div>
+
+        <div class="outer-container clearfix">
+            
+            <!--Left Column-->
+            <div class="left-column">
+                <div class="inner-column">
+                    <!-- Sec Title -->
+                    <div class="sec-title light">
+                        <div class="title">Our Growth Story</div>
+                       
+                    </div>
+                    <div class="history-outer">
+                        
+
+
+<div class="history-block">
+    <div class="inner-block wow fadeInLeft">
+         <div class="date">2020</div>
+         <h3>Surya Mitra has made space in TOP EPCs of JHARKHAND</h3>
+         <div class="history-text">Surya Mitra has made space in TOP EPCs of JHARKHAND - by successfully completing 2 mw++ Residential rooftop and 1 mw++ Drinking Water and Senitation project segment in one year.
+</div>
+    </div>
+</div>
+
+
+<div class="history-block">
+    <div class="inner-block wow fadeInLeft">
+         <div class="date">2019</div>
+         <h3>Became a prominent name in its business segment</h3>
+         <div class="history-text">Almost instantly, SuryaMitra Renewables Pvt Ltd. became a prominent name in its business segment, but like every entrepreneur sticks to their dream, we always wanted to push our company to milestones that are more prosperous. More than being a global player, we always perceived our company as a unit that could make a difference with its quality and competitively priced products.</div>
+    </div>
+</div>
+
+
+<div class="history-block">
+    <div class="inner-block wow fadeInLeft">
+         <div class="date">2018</div>
+         <h3>Tie up with WAAREE Energies Ltd.</h3>
+         <div class="history-text">Collaboration with WAAREE under its franchise network & started exclusive solar showroom in Bokaro, Jharkhand.
+</div>
+    </div>
+</div>
+
+
+<div class="history-block">
+    <div class="inner-block wow fadeInLeft">
+         <div class="date">2016</div>
+         <h3>We started SuryaMitra Renewables pvt Ltd.</h3>
+         <div class="history-text">Progress for us has never been a dream rather a distant reality and once one milestone is achieved, there is always another one waiting to be crossed. It is with this belief that we started SuryaMitra Renewables Pvt Ltd. in 2016, a company that was in the business of Renewable energy.</div>
+    </div>
+</div>
+
+
+<div class="history-block">
+    <div class="inner-block wow fadeInLeft">
+         <div class="date">2014</div>
+         <h3>Started Surya Mitra Enterprises</h3>
+         <div class="history-text">We started Surya Mitra Enterprises to cater retail & industrial need of Solar Products and Accessories.
+</div>
+    </div>
+</div>
+                    </div>                   
+                </div>
+            </div>
+            <!-- Right Column -->
+            <div class="right-column team-quote">
+                <div class="inner-column wow fadeInRight">                   
+                    <span class="flaticon-quote-1"></span>
+                    <h2>Every New Day Is A New Opportunity to "SUCCESS"</h2>
+                    <h4>-Team Surya Mitra</h4>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+    <!--End Features Section Two -->
+            </div>
+          </div>
+        </div>
+               <!-- -- services -->
+               <!-- Missin Section -->
+         
+    <!--End Missin Section -->
+             
+                          
+
+        <?php include __DIR__ . '/footer.php'; ?>
+<!--End pagewrapper-->
+      <!--Scroll to top-->
+      <div class="scroll-to-top scroll-to-target" data-target="html"><span class="fa fa-angle-up"></span></div>
+      <!--Scroll to top-->
+      <script src="js/jquery.js"></script>
+      <script src="js/popper.min.js"></script>
+      <script src="js/bootstrap.min.js"></script>
+     
+      <!--Revolution Slider-->
+      <script src="js/jquery-ui.js"></script>
+      <script src="js/jquery.fancybox.js"></script>
+      <script src="js/owl.js"></script>
+      <script src="js/wow.js"></script>
+      <script src="js/appear.js"></script>
+      <script src="js/script.js"></script>
+   </body>
+
+<!-- Mirrored from www.suryamitra.co.in/company-milestones by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 14 Aug 2020 10:01:44 GMT -->
+</html>

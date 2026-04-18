@@ -4,7 +4,7 @@ declare(strict_types=1);
 require __DIR__ . '/form_helpers.php';
 
 if ($_SERVER['REQUEST_METHOD'] !== 'POST') {
-    sm_render_response('Invalid Request', 'Please submit the career form from the website.', 'career.html');
+    sm_render_response('Invalid Request', 'Please submit the career form from the website.', 'career-page.php');
 }
 
 $firstName = sm_clean_line($_POST['quicname'] ?? '');
@@ -17,19 +17,19 @@ $securityCode = $_POST['security_code'] ?? '';
 $resume = $_FILES['uploaded_file'] ?? null;
 
 if ($firstName === '' || $lastName === '' || $email === '' || $phone === '' || $designation === '' || $designation === 'Select' || mb_strlen($message) < 2) {
-    sm_render_response('Career Form Error', 'Please complete all required fields before submitting your application.', 'career.html');
+    sm_render_response('Career Form Error', 'Please complete all required fields before submitting your application.', 'career-page.php');
 }
 
 if (strlen($phone) < 7 || strlen($phone) > 15) {
-    sm_render_response('Career Form Error', 'Please enter a valid phone number.', 'career.html');
+    sm_render_response('Career Form Error', 'Please enter a valid phone number.', 'career-page.php');
 }
 
 if (!sm_validate_captcha($securityCode)) {
-    sm_render_response('Career Form Error', 'The security code did not match. Please try again.', 'career.html');
+    sm_render_response('Career Form Error', 'The security code did not match. Please try again.', 'career-page.php');
 }
 
 if (!is_array($resume) || ($resume['error'] ?? UPLOAD_ERR_NO_FILE) !== UPLOAD_ERR_OK) {
-    sm_render_response('Career Form Error', 'Please attach your resume in PDF, DOC, or DOCX format.', 'career.html');
+    sm_render_response('Career Form Error', 'Please attach your resume in PDF, DOC, or DOCX format.', 'career-page.php');
 }
 
 $resumeName = basename((string) ($resume['name'] ?? 'resume'));
@@ -37,17 +37,17 @@ $resumeExtension = strtolower(pathinfo($resumeName, PATHINFO_EXTENSION));
 $allowedExtensions = ['pdf', 'doc', 'docx'];
 
 if (!in_array($resumeExtension, $allowedExtensions, true)) {
-    sm_render_response('Career Form Error', 'Only PDF, DOC, and DOCX resumes are allowed.', 'career.html');
+    sm_render_response('Career Form Error', 'Only PDF, DOC, and DOCX resumes are allowed.', 'career-page.php');
 }
 
 $resumeSize = (int) ($resume['size'] ?? 0);
 if ($resumeSize <= 0 || $resumeSize > 2 * 1024 * 1024) {
-    sm_render_response('Career Form Error', 'The uploaded resume must be smaller than 2 MB.', 'career.html');
+    sm_render_response('Career Form Error', 'The uploaded resume must be smaller than 2 MB.', 'career-page.php');
 }
 
 $resumeContent = file_get_contents((string) $resume['tmp_name']);
 if ($resumeContent === false) {
-    sm_render_response('Career Form Error', 'We could not read the uploaded resume. Please try again.', 'career.html');
+    sm_render_response('Career Form Error', 'We could not read the uploaded resume. Please try again.', 'career-page.php');
 }
 
 $mime = 'application/octet-stream';
@@ -86,7 +86,7 @@ $sent = sm_send_mail_with_attachment(
 );
 
 if (!$sent) {
-    sm_render_response('Career Form Error', 'We could not submit your application right now. Please try again later.', 'career.html');
+    sm_render_response('Career Form Error', 'We could not submit your application right now. Please try again later.', 'career-page.php');
 }
 
-sm_render_response('Application Submitted', 'Thank you for applying. Our team will review your profile and contact you if your application is shortlisted.', 'career.html');
+sm_render_response('Application Submitted', 'Thank you for applying. Our team will review your profile and contact you if your application is shortlisted.', 'career-page.php');

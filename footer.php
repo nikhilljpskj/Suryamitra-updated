@@ -16,7 +16,7 @@ if (basename(__FILE__) === basename($_SERVER['SCRIPT_FILENAME'] ?? '')) {
                             <div class="footer-widget about-widget">
                                 <h2>SuryaMitra Renewables Pvt. Ltd.</h2>
                                 <div class="text">SuryaMitra Renewables Pvt. Ltd. is an end to end power solution provider. Being in the business since 2016, the company has created good will with its high quality range of electronic products across the nation.</div>
-                                <a href="about.html" class="contact-btn btn-style-four">About Company</a>
+                                <a href="about.php" class="contact-btn btn-style-four">About Company</a>
                             </div>
                         </div>
 
@@ -24,14 +24,14 @@ if (basename(__FILE__) === basename($_SERVER['SCRIPT_FILENAME'] ?? '')) {
                             <div class="footer-widget services-widget">
                                 <h2>Quick Links</h2>
                                 <ul class="footer-service-list">
-                                    <li><a href="company-milestones.html"><span class="fa fa-chevron-right"></span> Company Milestones</a></li>
-                                    <li><a href="client-testimonial.html"><span class="fa fa-chevron-right"></span> Client's Testimonial</a></li>
-                                    <li><a href="completed-project.html"><span class="fa fa-chevron-right"></span> Completed Project</a></li>
+                                    <li><a href="company-milestones.php"><span class="fa fa-chevron-right"></span> Company Milestones</a></li>
+                                    <li><a href="client-testimonial.php"><span class="fa fa-chevron-right"></span> Client's Testimonial</a></li>
+                                    <li><a href="completed-project.php"><span class="fa fa-chevron-right"></span> Completed Project</a></li>
                                     <li><a href="https://www.waaree.com/blog" target="_blank" rel="noopener"><span class="fa fa-chevron-right"></span> Blog</a></li>
-                                    <li><a href="career.html"><span class="fa fa-chevron-right"></span> Career</a></li>
-                                    <li><a href="contact.html"><span class="fa fa-chevron-right"></span> Contact Us</a></li>
-                                    <li><a href="download-brochure.html"><span class="fa fa-chevron-right"></span> Download</a></li>
-                                    <li><a href="calculator.html"><span class="fa fa-chevron-right"></span> Solar Calculator</a></li>
+                                    <li><a href="career-page.php"><span class="fa fa-chevron-right"></span> Career</a></li>
+                                    <li><a href="contact-page.php"><span class="fa fa-chevron-right"></span> Contact Us</a></li>
+                                    <li><a href="download-brochure.php"><span class="fa fa-chevron-right"></span> Download</a></li>
+                                    <li><a href="calculator-home.php"><span class="fa fa-chevron-right"></span> Solar Calculator</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -76,13 +76,13 @@ if (basename(__FILE__) === basename($_SERVER['SCRIPT_FILENAME'] ?? '')) {
 </footer>
 
 <div class="brochure-link">
-    <a href="contact-2.html" id="contact" aria-hidden="true"><img src="images/call.gif" alt="Call Us" title="Call Us">Inquiry</a>
+    <a href="contact-2.php" id="contact" aria-hidden="true"><img src="images/call.gif" alt="Call Us" title="Call Us">Inquiry</a>
 </div>
 <div class="calculator-link">
-    <a href="calculator.html" id="calculator" aria-hidden="true"><i class="fa fa-calculator faa-bounce animated"></i>Solar Calculator</a>
+    <a href="calculator-home.php" id="calculator" aria-hidden="true"><i class="fa fa-calculator faa-bounce animated"></i>Solar Calculator</a>
 </div>
 <div class="download-link">
-    <a href="download-brochure-2.html" id="download" aria-hidden="true"><i class="fa fa-download faa-bounce animated"></i> Download</a>
+    <a href="download-brochure-2.php" id="download" aria-hidden="true"><i class="fa fa-download faa-bounce animated"></i> Download</a>
 </div>
 
 <div class="side-bar">

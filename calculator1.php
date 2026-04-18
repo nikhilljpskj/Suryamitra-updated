@@ -1,42 +1,3 @@
-<?php
-declare(strict_types=1);
-
-require_once __DIR__ . '/form_helpers.php';
-
-if (($_GET['action'] ?? '') === 'method1_process' && $_SERVER['REQUEST_METHOD'] === 'POST') {
-    $location = sm_clean_line($_POST['location'] ?? '');
-    $unitsPerMonth = sm_clean_line($_POST['units_per_month'] ?? '');
-    $mmsType = sm_clean_line($_POST['mms_type'] ?? '');
-    $lat = sm_clean_line($_POST['lat'] ?? '');
-    $lng = sm_clean_line($_POST['lng'] ?? '');
-
-    if ($location === '' || $unitsPerMonth === '' || $mmsType === '') {
-        sm_render_response('Calculator Request Error', 'Please complete the calculator form before submitting.', 'calculator.php');
-    }
-
-    if (!is_numeric($unitsPerMonth)) {
-        sm_render_response('Calculator Request Error', 'Units per month must be a valid number.', 'calculator.php');
-    }
-
-    $body = implode("\n", [
-        'New solar calculator enquiry received from suryamitra.co.in',
-        '',
-        'Location: ' . $location,
-        'Units Per Month: ' . $unitsPerMonth,
-        'MMS Type: ' . $mmsType,
-        'Latitude: ' . $lat,
-        'Longitude: ' . $lng,
-    ]);
-
-    $sent = sm_send_mail('sales@suryamitra.co.in', 'New Solar Calculator Request', $body);
-
-    if (!$sent) {
-        sm_render_response('Calculator Request Error', 'We could not submit your calculator enquiry right now. Please try again later.', 'calculator.php');
-    }
-
-    sm_render_response('Request Submitted', 'Your calculator request has been shared with our team. We will contact you shortly.', 'calculator.php');
-}
-?>
 <!DOCTYPE html>
 <html lang="en">
    
@@ -76,7 +37,16 @@ if (($_GET['action'] ?? '') === 'method1_process' && $_SERVER['REQUEST_METHOD'] 
       <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&amp;display=swap" rel="stylesheet">
       <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-155349077-1"></script>
-<script type="text/javascript" src="js/jquery-2.0.0.min.js"></script>
+<!-- Global site tag (gtag.js) - Google Ads: 692808125 -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-692808125"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'AW-692808125');
+</script>
+
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
@@ -86,23 +56,6 @@ if (($_GET['action'] ?? '') === 'method1_process' && $_SERVER['REQUEST_METHOD'] 
 </script>
 <!-- - Google Add popup -->
 <script data-ad-client="ca-pub-1444773608596059" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-
-<style>
-.mycalc {
-  border: 2px outset black;
-  float: right;
-  
-  margin: 75px;
-  width: 150%;
-  border-radius: 25px;
-  text-align: center;
-  position:center;
-}
-</style>
-<script src="/js/popper.js"></script>
-	<script src="/js/bootstrap.min.js"></script>
-    <link href="/css/bootstrap.min.css" rel="stylesheet">
-	<script type="text/javascript" src="bootstrap/bootstrap-hover-dropdown-master/bootstrap-hover-dropdown.min.js"></script>
    </head>
    <body>
        
@@ -129,158 +82,86 @@ if (($_GET['action'] ?? '') === 'method1_process' && $_SERVER['REQUEST_METHOD'] 
                <section class="design-section">
                   <div class="auto-container">
                      <!-- Upper Section -->
-                     <div class="upper-section">
+                     
                         <div class="row clearfix">
                            <!-- Title Column -->
                            <div class="title-column col-lg-5 col-md-12 col-sm-12">
                               <div class="inner-column">
                                  <!-- Sec Title -->
                                  <div class="sec-title wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
-                                    <h2>Step 1<span>: Select Location</span></h2>
+                                    <h2>Let's Design your system. </h2>
                                  </div>
                               </div>
                            </div>
                            <!-- Content Column -->
                           
-                         <!-- Form Column -->
+                           <div class="container padt40" style="min-height:500px;">
 
-<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?libraries=places%26key=AIzaSyBfEiWbO-g_7-NfDYwmwQrfQM71tlpFPgk"></script>
-            <script>
-var geocoder = new google.maps.Geocoder();
- function geocodeAddress(address) {
-        
-        geocoder.geocode({'address': address}, function(results, status) {
-          if (status === 'OK') {
-			  
-			  var thisstr = results[0].geometry.location;
-			  //alert(Math.round(thisstr.lat()*100)/100);
-			  //alert(Math.round(thisstr.lng()*100)/100);
-			  $('#lat').val(Math.round(thisstr.lat()*100)/100);
-			  $('#lng').val(Math.round(thisstr.lng()*100)/100);
-			  document.form1.submit();
-            
-          } else {
-            alert('Geocode was not successful for the following reason: ' + status);
-          }
-        });
-      }
-
-</script>
-<script>
-$(document).ready(function() {
-var inputvar = document.getElementById('location');
-var options = {
-  types: ['(cities)'],
-  componentRestrictions: {country: 'in'}
-};
-var autocomplete = new google.maps.places.Autocomplete(inputvar, options);
-});
-</script>	
-<script type="text/javascript" src="js/fancybox/jquery.fancybox.min.js"></script>
-	<link rel="stylesheet" href="js/fancybox/jquery.fancybox.css" type="text/css" media="screen" />
-	<script type="text/javascript">
-	$(document).ready(function() {	
+	<div class="row">
 	
-		$(".fancybox").fancybox({ padding: 0 }); 
 
-         $(".gallery_image").fancybox({
-                prevEffect		: 'none',
-                nextEffect		: 'none',
-				
-                helpers		: {
-					//title	: { type : 'inside' },
-					buttons	: {}
-				}
-            });
-        });
-		</script>
-<script>
-$(document).ready(function(){
-	$( ".owl-prev").html('<i class="fas fa-chevron-left"></i>');
-	$( ".owl-next").html('<i class="fas fa-chevron-right"></i>');
-});
-</script>
-<script>
-$(document).ready(function() {
-	
-	var validator = $("#form1").validate({
-	ignore: "",
-	rules: {
-		location :{required:true},
-		units_per_month : {required:true, number:true, min:1, max:100000},
-		mms_type :{required:true}	
-		
-		},
-		
-	errorPlacement: function(error, element) {
-		$('#' + $(element).attr('id')).next('.error_holder').html(error);
-		},
-
-	messages: {
-		
-			
-		},
-	submitHandler: function() {
-
-			document.form1.submit();
-			//alert('submitted');
-				
-		}
-	});
+    <input type="text" id="city" name="city" placeholder="City Name"><br>
+  <input type="text" id="elect" name="elect" placeholder="Average Monthly Electricity Bill (.Rs)"><br>
+  <input type="text" id="area" name="area" placeholder="Roof Area (sq. ft)"><br>
+  <select name="Connection Type" id ="Connection Type">
+      <option value="Electricity Connection Type">Electricity Connection Type </option>
+  <option value="Residential">Residential</option>
+ <option value="Commercial">Commercial</option>
+ <option value="Housing Society">Housing Society</option>
+ </select>
+  <select name="Elect_Provider" id ="Elect_Provider">
+      <option value="Electricity Service Provider">Electricity Service Provider</option>
+  <option value="JUSCO">Jamshedpur Utility & Services Company Limited, JUSCO</option>
+ <option value="JBVNL">Jharkhand Bijli Vitran Nigam Limited, JBVNL</option>
+ <option value="BSL">Bokaro Steel Limited, BSL</option>
+ </select>
+  <br><br><br>
  
-});
-</script>
-<script>
-$(document).ready(function(){
-	$( ".owl-prev").html('<i class="fas fa-chevron-left"></i>');
-	$( ".owl-next").html('<i class="fas fa-chevron-right"></i>');
-});
-</script>
-	  
+  
+<p>By providing my information, I agree that team Suryamitra can contact me via phone/email/whatsapp and/or prerecorded message using the details provided.</p>
+<br>
+<div class="col-lg-6 col-md-6 col-sm-12 form-group">
+                            	<button class="contact-btn btn-style-five animated" type="submit" name="sbtsubmit" value="Submit"  onclick="myData()">Design and Price</button>
+                            	<hr>
+                            	<br><br>
+                            	
+                            	<div id="myDIV">
+                                This is my DIV element.
+                            	<h4>3.5 Kilowatt (KW)</h4>
+                            	<i class='fa fa-lightbulb fa-5x' aria-hidden='true' style='padding-top:10%; padding-bottom:10%;'></i>
+                            	<i class='fa fa-warehouse fa-5x' aria-hidden='true' style='padding-top:10%; padding-bottom:10%;'></i>
+                            	<i class='fa fa-bolt fa-5x' aria-hidden='true' style='padding-top:10%; padding-bottom:10%;'></i>
+                            	</div>
+                            	
+                            	</div>
+ 
 
 
 
 
-                     <form method="post" action="calculator.php?action=method1_process" name="form1" id="form1"><br><br><br><br>
-<input type="hidden" name="lat" id="lat" value="">
-<input type="hidden" name="lng" id="lng" value="">
-
-<table class="table">
-    
-<tr><td>Location: </td><td><input type="text" name="location"  id="location" class="form-control" style="max-width:350px;"><div class="error_holder"></div></td></tr>
-<tr><td>Units Per Month (As per your bill): </td><td><input type="text" name="units_per_month"  id="units_per_month" class="form-control" style="max-width:350px;"><div class="error_holder"></div></td></tr>
-<tr><td>Select MMS Type: </td><td>
-<select name="mms_type" id="mms_type" class="form-control" style="max-width:350px;">
-<option value="">-- Select MMS Type --</option>
-<option value="RCC Terrace Penetrating">RCC Terrace Penetrating</option>
-<option value="RCC Terrace Non Penetrating with Counterweight">RCC Terrace Non Penetrating with Counterweight</option>
-<option value="Trapezoidal Roof Penetrating">Trapezoidal Roof Penetrating</option>
-<option value="ClipLock type Non Penetrating on Trapezoidal Roof with Bonding Chemical">ClipLock type Non Penetrating on Trapezoidal Roof with Bonding Chemical</option>
-<option value="Ground Mount">Ground Mount</option>
-<option value="Superstructure">Superstructure</option>
-</select>
-
-<div class="error_holder"></div>
-</td></tr>
-<tr><td>&nbsp;</td><td><input type="submit" class="btn btn-primary btn-style-five animated" value="Submit" onclick="javascript:geocodeAddress($('#location').val());"></td></tr>
-</table>
-</form>
-                        
-                  </div>
-                  
-               </div>
-            </div>
+		</div>
+	</div>
+</div>
                        
-                    
-               </section>
+                        </div>
+                  
+                 
                
                <!-- End Design Section -->
-            </div>
-          </div>
-      </div>
+            
+      
                <!-- -- services -->
                <!-- Missin Section -->
-      
+      <script>
+function myData() {
+  var x = document.getElementById("myDIV");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
     <!--End Missin Section -->
              
                <!-- Fun Facts Section -->

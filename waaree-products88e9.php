@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+   
+
+<head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+      <meta name="Keywords" content="Waaree, Inverter, OnGrid, OffGrid, Hybrid, Solar PV, SPV, Rooftop,Ground Mounted, Solar Water Pump, Single phase, Three Phase, Solar Water Heater">
+      <meta name="description" content="WAAREE offers single and three phase inverters unrivaled in the industry for their quality, reliability and efficiency.">
+      <meta name="twitter:card" content="summary"><meta name="twitter:site" content="@suryamitraente2"><meta name="twitter:title" content="Surya Mitra India"><meta name="twitter:description" content="Best Solar Energy Equipment Supplier in Jharkhand">
+      <meta property="og:title" content="Surya Mitra India">
+      <meta property="og:site_name" content="Suryamitra">
+      <meta property="og:url" content="https://suryamitra.co.in/">
+      <meta property="og:description" content="Best Solar Energy Equipment supplier in Jharkhand">
+      <meta property="og:type" content="website">
+      <meta property="og:image" content="/img/SMIPL.jpeg">
+      <title>Inverter | SuryaMitra Renewables Pvt. Ltd.</title>
+      <!-- Stylesheets -->
+      <link href="https://suryamitra.co.in/waaree-products88e9.php?product=Inverter" rel="canonical">
+      <link href="css/bootstrap.css" rel="stylesheet">
+      <link href="plugins/revolution/css/settings.css" rel="stylesheet" type="text/css">
+      <!-- REVOLUTION SETTINGS STYLES -->
+      <link href="plugins/revolution/css/layers.css" rel="stylesheet" type="text/css">
+      <!-- REVOLUTION LAYERS STYLES -->
+      <link href="plugins/revolution/css/navigation.css" rel="stylesheet" type="text/css">
+      <!-- REVOLUTION NAVIGATION STYLES -->
+      <link href="css/style.css" rel="stylesheet">
+      <link href="css/responsive.css" rel="stylesheet">
+      <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+      <link rel="icon" href="images/favicon.png" type="image/x-icon">
+      <!-- Responsive -->
+      <link rel="stylesheet" href="css/fontawesome-all.css">
+      <!-- -- fonts -->
+      <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&amp;display=swap" rel="stylesheet">
+      <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-155349077-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-155349077-1');
+</script>
+<!-- - Google Add popup -->
+<script data-ad-client="ca-pub-1444773608596059" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Global site tag (gtag.js) - Google Ads: 692808125 -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-692808125"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'AW-692808125');
+</script>
+
+   </head>
+   <body>
+      <div class="page-wrapper">
+      <!-- Preloader -->
+      <!-- <div class="preloader"></div> -->
+      <!-- main header -->
+       <?php include __DIR__ . '/header.php'; ?>
+   <!-- End Main Header -->
+      <section class="page-banner style-two" style="background-image:url(images/main-slider/11.jpg);">
+         <div class="auto-container">
+            <div class="inner-container clearfix">
+               <h1>Inverter</h1>
+               <ul class="bread-crumb clearfix">
+                  <li><a href="index.php">Home</a></li>
+                  <li><a href="#">Products & Solutions</a></li>
+                  <li><a href="#">WAAREE Products</a></li>
+                  <li>Inverter</li>
+               </ul>
+            </div>
+         </div>
+      </section>
+      <!--Sidebar Page Container-->
+      <div class="sidebar-page-container">
+         <div class="auto-container">
+            <div class="row clearfix">
+               <!--Sidebar Side-->
+               <div class="sidebar-side col-lg-4 col-md-12 col-sm-12 wow fadeInLeft">
+                  <aside class="sidebar padding-right">
+                     <!-- Category Widget -->
+                     <div class="sidebar-widget categories-two">
+                        <div class="widget-content">
+                           <div class="sidebar-title">
+                              <h5>WAAREE Products</h5>
+                           </div>
+                           <!-- Services Category -->
+                           <ul class="services-categories">
+                                                            <li class=""><a href="waaree-products65e1.php?product=PV-Module">PV Module</a></li>
+                                                            <li class="active"><a href="waaree-products88e9.php?product=Inverter">Inverter</a></li>
+                                                            <li class=""><a href="waaree-products290d.php?product=Batteries">Batteries</a></li>
+                                                            <li class=""><a href="waaree-productsa83e.php?product=Solar-Water-Pump">Solar Water Pump</a></li>
+                                                            <li class=""><a href="waaree-products1164.php?product=Solar-Thermal">Solar Thermal</a></li>
+                                                        </ul>
+                        </div>
+                     </div>
+                     <!-- Services Widget -->
+                     <!-- Support Widget -->
+                     <div class="sidebar-widget support-widget" style="background-image:url(images/solar.jpg);">
+                        <div class="widget-content">
+                           <span class="icon flaticon-telephone-1"></span>
+                           <div class="text">Got any Questions? <br> Talk to our team today.</div>
+                           <div class="number"><span class="blinking">1800 889 6542</span></div>
+                           <div class="email"><a href="#">sales@suryamitra.co.in</a></div>
+                        </div>
+                     </div>
+                  </aside>
+               </div>
+               <!--Content Side / Services Detail-->
+               <div class="content-side col-lg-8 col-md-12 col-sm-12">
+                  <div class="services-detail">
+                     <div class="inner-box">
+                                                <div class="lower-content">
+                           <!-- Title Box -->
+                           
+                                                     <div class="title-box">
+                              <h2>Inverter </h2>
+                           </div>
+                           
+                                                      <div class="text fadeInLeft">
+                           	  <p>WAAREE has developed a range of single and three phase inverters unrivaled in the industry for their quality, reliability and efficiency. This range of inverters have been engineered to global standards with stylish aesthetics and the highest levels of efficiency in the market today.</p>
+                           </div>
+                                                   </div>
+                        
+                                                
+                     </div>
+                  </div>
+               </div>
+            </div>
+            
+                        <!--  -->
+            <div class="product-inner-sec">
+          		<div class="auto-container">
+             <div class="sec-title centered wow fadeInDown animated" data-wow-delay="0ms" data-wow-duration="1500ms" style="visibility: visible; animation-duration: 1500ms; animation-delay: 0ms; animation-name: fadeInDown;">
+                <h2>Single Phase Grid TIED Inverters</h2>
+             </div>
+             <div class="row clearfix">
+             	             	
+                <!-- News Block -->
+                <div class="inverter-block col-lg-4 col-md-6 col-sm-12">
+                   <div class="inner-box wow fadeInUp animated" data-wow-delay="0ms" data-wow-duration="1500ms" style="visibility: visible; animation-duration: 1500ms; animation-delay: 0ms; animation-name: fadeInUp;">
+                      <div class="image">
+                         <a href="#"><img src="utility/products/1569222412w1-singlephase.jpg" alt="W1 SINGLE PHASE INVERTER" title="W1 SINGLE PHASE INVERTER"></a>
+                      </div>
+                      <div class="lower-content">
+                         <h3>W1 SINGLE PHASE INVERTER</h3>
+                         <!--<h4>Single Phase Inverter</h4> -->
+                         <h4>1 KW TO 3 KW</h4>
+                         <h4></h4>
+                         <ul>
+	<li>Power Factor Adjustable</li>
+	<li>Suitable for 3-panel System</li>
+	<li>Less than 25dB</li>
+	<li>Wide MPTT Range</li>
+	<li>Export Control</li>
+	<li>Remote Upgrade</li>
+</ul>
+                         <a class="arrow" href="#"><span class="icon flaticon-next"></span></a>
+                      </div>
+                   </div>
+                </div>
+                <!-- News Block -->
+                             	
+                <!-- News Block -->
+                <div class="inverter-block col-lg-4 col-md-6 col-sm-12">
+                   <div class="inner-box wow fadeInUp animated" data-wow-delay="0ms" data-wow-duration="1500ms" style="visibility: visible; animation-duration: 1500ms; animation-delay: 0ms; animation-name: fadeInUp;">
+                      <div class="image">
+                         <a href="#"><img src="utility/products/1569222494w1-singlephase-12.jpg" alt="W1 SINGLE PHASE INVERTER" title="W1 SINGLE PHASE INVERTER"></a>
+                      </div>
+                      <div class="lower-content">
+                         <h3>W1 SINGLE PHASE INVERTER</h3>
+                         <!--<h4>Single Phase Inverter</h4> -->
+                         <h4>4 KW TO 5 KW</h4>
+                         <h4></h4>
+                         <ul>
+	<li>Wide MPPT Range</li>
+	<li>Maximum Efficiency 98%</li>
+	<li>Multiple-monitoring Method (Wi-Fi, RS485, WLAN)</li>
+	<li>Up to 10% continuous overload capacity</li>
+	<li>30% lighter than similar products, easy to install</li>
+	<li>IP 65 dust-proof and water-proof</li>
+</ul>
+                         <a class="arrow" href="#"><span class="icon flaticon-next"></span></a>
+                      </div>
+                   </div>
+                </div>
+                <!-- News Block -->
+                               
+             </div>
+          </div>
+      		</div>
+            <!-- -->
+                        <!--  -->
+            <div class="product-inner-sec">
+          		<div class="auto-container">
+             <div class="sec-title centered wow fadeInDown animated" data-wow-delay="0ms" data-wow-duration="1500ms" style="visibility: visible; animation-duration: 1500ms; animation-delay: 0ms; animation-name: fadeInDown;">
+                <h2>Three Phase Grid TIED Inverters</h2>
+             </div>
+             <div class="row clearfix">
+             	             	
+                <!-- News Block -->
+                <div class="inverter-block col-lg-4 col-md-6 col-sm-12">
+                   <div class="inner-box wow fadeInUp animated" data-wow-delay="0ms" data-wow-duration="1500ms" style="visibility: visible; animation-duration: 1500ms; animation-delay: 0ms; animation-name: fadeInUp;">
+                      <div class="image">
+                         <a href="#"><img src="utility/products/1569222635W3-4K.png" alt="W3-4K / W3-5k / W3-6K / W3-8K / W3-9K" title="W3-4K / W3-5k / W3-6K / W3-8K / W3-9K"></a>
+                      </div>
+                      <div class="lower-content">
+                         <h3>W3-4K / W3-5k / W3-6K / W3-8K / W3-9K</h3>
+                         <!--<h4>Single Phase Inverter</h4> -->
+                         <h4>Three Phase Inverter</h4>
+                         <h4>4kW / 5kW / 6kW / 8kW / 9kW</h4>
+                         <ul>
+	<li>Maximum Efficiency up to 98.3%</li>
+	<li>Dual MPPT / Three Phase Inverter</li>
+	<li>Compact &amp; Light weight</li>
+	<li>Fanless, Low self-Power, Low Maintenance</li>
+	<li>Super Large 5&quot; LCD Display</li>
+	<li>IP 65 for outdoor use</li>
+	<li>Built-in DC Switch and Wi-fi</li>
+	<li>Multiple layer Safety protection</li>
+</ul>
+                         <a class="arrow" href="#"><span class="icon flaticon-next"></span></a>
+                      </div>
+                   </div>
+                </div>
+                <!-- News Block -->
+                             	
+                <!-- News Block -->
+                <div class="inverter-block col-lg-4 col-md-6 col-sm-12">
+                   <div class="inner-box wow fadeInUp animated" data-wow-delay="0ms" data-wow-duration="1500ms" style="visibility: visible; animation-duration: 1500ms; animation-delay: 0ms; animation-name: fadeInUp;">
+                      <div class="image">
+                         <a href="#"><img src="utility/products/1569222741w3-25.png" alt="W3-25 / W3-30" title="W3-25 / W3-30"></a>
+                      </div>
+                      <div class="lower-content">
+                         <h3>W3-25 / W3-30</h3>
+                         <!--<h4>Single Phase Inverter</h4> -->
+                         <h4>Three Phase Inverter</h4>
+                         <h4>25kW / 30kW</h4>
+                         <ul>
+	<li>Maximum Efficiency up to 98.3%</li>
+	<li>Dual MPPT / Three Phase Inverter</li>
+	<li>Compact &amp; Light weight</li>
+	<li>Fanless, Low self-Power, Low Maintenance</li>
+	<li>Super Large 5&quot; LCD Display</li>
+	<li>IP 65 for outdoor use</li>
+	<li>Built-in DC Switch and Wi-fi</li>
+	<li>Multiple layer Safety protection</li>
+</ul>
+                         <a class="arrow" href="#"><span class="icon flaticon-next"></span></a>
+                      </div>
+                   </div>
+                </div>
+                <!-- News Block -->
+                             	
+                <!-- News Block -->
+                <div class="inverter-block col-lg-4 col-md-6 col-sm-12">
+                   <div class="inner-box wow fadeInUp animated" data-wow-delay="0ms" data-wow-duration="1500ms" style="visibility: visible; animation-duration: 1500ms; animation-delay: 0ms; animation-name: fadeInUp;">
+                      <div class="image">
+                         <a href="#"><img src="utility/products/1569222814W3-50.png" alt="W3-50 / W3-60" title="W3-50 / W3-60"></a>
+                      </div>
+                      <div class="lower-content">
+                         <h3>W3-50 / W3-60</h3>
+                         <!--<h4>Single Phase Inverter</h4> -->
+                         <h4>Three Phase Inverter</h4>
+                         <h4>50kW / 60kW</h4>
+                         <ul>
+	<li>Ideal design for Rooftop Service</li>
+	<li>Maximum Efficiency up to 98.8%</li>
+	<li>4 MPPT / up to 12 Inputs</li>
+	<li>Low self-Power, Low Maintenance</li>
+	<li>String-level Monitoring</li>
+	<li>Large LCD Display</li>
+	<li>IP 65 for outdoor use</li>
+	<li>Built-in DC Switch and Wi-fi</li>
+	<li>Multiple layer Safety protection</li>
+</ul>
+                         <a class="arrow" href="#"><span class="icon flaticon-next"></span></a>
+                      </div>
+                   </div>
+                </div>
+                <!-- News Block -->
+                             	
+                <!-- News Block -->
+                <div class="inverter-block col-lg-4 col-md-6 col-sm-12">
+                   <div class="inner-box wow fadeInUp animated" data-wow-delay="0ms" data-wow-duration="1500ms" style="visibility: visible; animation-duration: 1500ms; animation-delay: 0ms; animation-name: fadeInUp;">
+                      <div class="image">
+                         <a href="#"><img src="utility/products/1569222892W3-65.png" alt="W3-65 / W3-75" title="W3-65 / W3-75"></a>
+                      </div>
+                      <div class="lower-content">
+                         <h3>W3-65 / W3-75</h3>
+                         <!--<h4>Single Phase Inverter</h4> -->
+                         <h4>Three Phase Inverter</h4>
+                         <h4>65kW / 75kW</h4>
+                         <ul>
+	<li>Ideal design for Utility scale Service with 480 Vac O/p</li>
+	<li>Maximum Efficiency up to 98.8%</li>
+	<li>4 MPPT / up to 13 Inputs</li>
+	<li>Low self-Power, Low Maintenance</li>
+	<li>String-level Monitoring</li>
+	<li>Large LCD Display</li>
+	<li>IP 65 for outdoor use</li>
+	<li>Built-in DC Switch and Wi-fi</li>
+	<li>Multiple layer Safety protection</li>
+</ul>
+                         <a class="arrow" href="#"><span class="icon flaticon-next"></span></a>
+                      </div>
+                   </div>
+                </div>
+                <!-- News Block -->
+                               
+             </div>
+          </div>
+      		</div>
+            <!-- -->
+                           
+			<!-- --> 
+         </div>
+       </div>
+      
+       <?php include __DIR__ . '/footer.php'; ?>
+<!--End pagewrapper-->
+      <!--Scroll to top-->
+      <div class="scroll-to-top scroll-to-target" data-target="html"><span class="fa fa-angle-up"></span></div>
+      <!--Scroll to top-->
+      <script src="js/jquery.js"></script>
+      <script src="js/popper.min.js"></script>
+      <script src="js/bootstrap.min.js"></script>
+      <!--Revolution Slider-->
+     
+      <!--Revolution Slider-->
+      <script src="js/jquery-ui.js"></script>
+      <script src="js/jquery.fancybox.js"></script>
+      <script src="js/owl.js"></script>
+      <script src="js/wow.js"></script>
+      <script src="js/appear.js"></script>
+      <script src="js/script.js"></script>
+   </body>
+
+<!-- Mirrored from www.suryamitra.co.in/waaree-products?product=Inverter by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 14 Aug 2020 10:02:54 GMT -->
+</html>

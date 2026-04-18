@@ -4,7 +4,7 @@ declare(strict_types=1);
 require __DIR__ . '/form_helpers.php';
 
 if ($_SERVER['REQUEST_METHOD'] !== 'POST') {
-    sm_render_response('Invalid Request', 'Please submit the contact form from the website.', 'contact.html');
+    sm_render_response('Invalid Request', 'Please submit the contact form from the website.', 'contact-page.php');
 }
 
 $firstName = sm_clean_line($_POST['quicname'] ?? '');
@@ -17,15 +17,15 @@ $message = sm_clean_text($_POST['quicmessage'] ?? '');
 $securityCode = $_POST['security_code'] ?? '';
 
 if ($firstName === '' || $lastName === '' || $email === '' || $phone === '' || $subject === '' || mb_strlen($message) < 2) {
-    sm_render_response('Contact Form Error', 'Please complete all required fields with valid details.', 'contact.html');
+    sm_render_response('Contact Form Error', 'Please complete all required fields with valid details.', 'contact-page.php');
 }
 
 if (strlen($phone) < 7 || strlen($phone) > 15) {
-    sm_render_response('Contact Form Error', 'Please enter a valid phone number.', 'contact.html');
+    sm_render_response('Contact Form Error', 'Please enter a valid phone number.', 'contact-page.php');
 }
 
 if (!sm_validate_captcha($securityCode)) {
-    sm_render_response('Contact Form Error', 'The security code did not match. Please try again.', 'contact.html');
+    sm_render_response('Contact Form Error', 'The security code did not match. Please try again.', 'contact-page.php');
 }
 
 $body = implode("\n", [
@@ -43,7 +43,7 @@ $body = implode("\n", [
 $sent = sm_send_mail('sales@suryamitra.co.in', 'New Customer Enquiry', $body, $email);
 
 if (!$sent) {
-    sm_render_response('Contact Form Error', 'We could not send your enquiry right now. Please call us on 1800 889 6542.', 'contact.html');
+    sm_render_response('Contact Form Error', 'We could not send your enquiry right now. Please call us on 1800 889 6542.', 'contact-page.php');
 }
 
-sm_render_response('Thank You', 'Thank you for contacting us. We will be in touch with you very soon.', 'contact.html');
+sm_render_response('Thank You', 'Thank you for contacting us. We will be in touch with you very soon.', 'contact-page.php');

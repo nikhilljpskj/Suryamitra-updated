@@ -1,9 +1,7 @@
 Options -Indexes
 ServerSignature Off
 
-DirectoryIndex index.php index.html index-2.html
-
-AddType application/x-httpd-php .html .htm
+DirectoryIndex index.php index-2.php
 
 <IfModule mod_rewrite.c>
 RewriteEngine On
@@ -11,43 +9,15 @@ RewriteEngine On
 RewriteCond %{HTTPS} !=on
 RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301,NE]
 
-RewriteRule ^index\.html$ / [L,R=301]
-RewriteRule ^index-2\.html$ / [L,R=301]
-RewriteRule ^index-3\.html$ / [L,R=301]
+RewriteCond %{REQUEST_URI} ^/(.+)\.html$ [NC]
+RewriteCond %{DOCUMENT_ROOT}/%1.php -f
+RewriteRule ^(.+)\.html$ /$1.php [L,R=301,NC]
+
+RewriteRule ^index\.html$ / [L,R=301,NC]
+RewriteRule ^index-2\.html$ / [L,R=301,NC]
+RewriteRule ^index-3\.html$ / [L,R=301,NC]
+RewriteRule ^index-2\.php$ / [L,R=301,NC]
+RewriteRule ^index-3\.php$ / [L,R=301,NC]
 </IfModule>
-
-<IfModule mod_headers.c>
-Header always set X-Content-Type-Options "nosniff"
-Header always set X-Frame-Options "SAMEORIGIN"
-Header always set Referrer-Policy "strict-origin-when-cross-origin"
-Header always set Permissions-Policy "camera=(), geolocation=(), microphone=()"
-Header always set X-XSS-Protection "1; mode=block"
-Header always set Strict-Transport-Security "max-age=31536000; includeSubDomains" env=HTTPS
-</IfModule>
-
-<IfModule mod_expires.c>
-ExpiresActive On
-ExpiresByType text/css "access plus 1 month"
-ExpiresByType application/javascript "access plus 1 month"
-ExpiresByType image/jpeg "access plus 1 year"
-ExpiresByType image/jpg "access plus 1 year"
-ExpiresByType image/png "access plus 1 year"
-ExpiresByType image/gif "access plus 1 year"
-ExpiresByType image/svg+xml "access plus 1 year"
-ExpiresByType application/pdf "access plus 1 month"
-ExpiresDefault "access plus 2 days"
-</IfModule>
-
-<IfModule mod_deflate.c>
-AddOutputFilterByType DEFLATE text/html text/plain text/css text/javascript application/javascript application/json application/xml image/svg+xml
-</IfModule>
-
-<FilesMatch "^(header|footer|form_helpers)\.php$">
-    Require all denied
-</FilesMatch>
-
-<Files "error_log">
-    Require all denied
-</Files>
 
 ErrorDocument 404 /404.shtml

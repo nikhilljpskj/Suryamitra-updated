@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+   
+
+<head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="keywords" content="best solar panel">
+      <meta name="keywords" content="solar panel price, solar panel rates">
+      <meta name="description" content="Find the best solar panel for your home or business with SuryaMitra. Get transparent solar panel prices, top brands, and expert installation. Go solar today!">
+      <meta name="twitter:card" content="summary"><meta name="twitter:site" content="@suryamitraente2"><meta name="twitter:title" content="Surya Mitra India"><meta name="twitter:description" content="Best Solar Energy Equipment Supplier in Jharkhand">
+      <meta property="og:title" content="Best Solar Panel | Affordable Solar Panel Price & Rates">
+      <meta property="og:site_name" content="Suryamitra">
+      <meta property="og:url" content="https://suryamitra.co.in/">
+      <meta property="og:description" content="Find the best solar panel for your home or business with SuryaMitra. Get transparent solar panel prices, top brands, and expert installation. Go solar today!">
+      <meta property="og:type" content="website">
+      <meta property="og:image" content="/img/SMIPL.jpeg">
+      <title>Best Solar Panel | Affordable Solar Panel Price & Rates</title>
+      <!-- Stylesheets -->
+      <link href="https://suryamitra.co.in/about.php" rel="canonical">
+      <link href="css/bootstrap.css" rel="stylesheet">
+      <link href="plugins/revolution/css/settings.css" rel="stylesheet" type="text/css">
+      <!-- REVOLUTION SETTINGS STYLES -->
+      <link href="plugins/revolution/css/layers.css" rel="stylesheet" type="text/css">
+      <!-- REVOLUTION LAYERS STYLES -->
+      <link href="plugins/revolution/css/navigation.css" rel="stylesheet" type="text/css">
+      <!-- REVOLUTION NAVIGATION STYLES -->
+      <link href="css/style.css" rel="stylesheet">
+      <link href="css/responsive.css" rel="stylesheet">
+      <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+      <link rel="icon" href="images/favicon.png" type="image/x-icon">
+      <!-- Responsive -->
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+      <link rel="stylesheet" href="css/fontawesome-all.css">
+      <!-- -- fonts -->
+      <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&amp;display=swap" rel="stylesheet">
+      <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-155349077-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-155349077-1');
+</script>
+<!-- - Google Add popup -->
+<script data-ad-client="ca-pub-1444773608596059" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Global site tag (gtag.js) - Google Ads: 692808125 -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-692808125"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'AW-692808125');
+</script>
+
+   </head>
+   <body>
+      <div class="page-wrapper">
+      <!-- Preloader -->
+      <!-- <div class="preloader"></div> -->
+      <!-- main header -->
+  <?php include __DIR__ . '/header.php'; ?>
+   <!-- End Main Header -->
+<section class="page-banner style-two" style="background-image:url(images/top-banner/about.jpg)">
+   <div class="auto-container">
+      <div class="inner-container clearfix">
+         <h1>Best Solar Panel Price India</h1>
+         <ul class="bread-crumb clearfix">
+            <li><a href="index.php">Home</a></li>
+            <li><a href="#">Solar Solutions</a></li>
+            <li>Best Solar Panel</li>
+         </ul>
+      </div>
+   </div>
+</section>
+
+<div class="container">
+   <div class="row">
+      <div class="main">
+         <section class="design-section">
+            <div class="auto-container">
+               <div class="upper-section">
+                  <div class="row clearfix">
+                     <div class="content-column col-lg-12 col-md-12 col-sm-12">
+                        <div class="inner-column wow fadeInRight" data-wow-delay="0ms" data-wow-duration="3000ms">
+
+                           <div class="title-column col-lg-12 col-md-12 col-sm-12">
+                              <div class="inner-column">
+                                 <div class="sec-title wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
+                                    <h2>🌞 Discover the Best Solar Panel Price for Your Home or Business</h2>
+                                 </div>
+                              </div>
+                           </div>
+
+                           <p>If you’re looking for the best solar panel that combines performance, durability, and affordability—you’re in the right place. At Surya Mitra Renewables, we believe going solar should feel simple, transparent, and rewarding. Whether you're researching the best solar panel price or trying to understand current solar panel rates, we’ve got you covered with honest guidance and quality you can count on.</p>
+
+                           <div class="text">
+                              <h4>🌟 Why Choose Surya Mitra for Solar?</h4>
+                              <p>We don’t just install panels—we empower you to take control of your energy future. As one of the most trusted names in the industry, we partner with Tata Power Solar to bring you solar systems that deliver results from day one.</p>
+
+                              <ul>
+                                 <li><p></p><span>✅ </span><b>Premium Panels from Tata Power Solar</b><br>Our systems use high-efficiency solar modules designed to perform in all weather—giving you reliable energy all year long.</li>
+                                 <li><p></p><span>✅ </span><b>Save More, Worry Less</b><br>Installing the best solar panel today could reduce your electricity bill by up to 90%, while adding long-term value to your property.</li>
+                                 <li><p></p><span>✅ </span><b>Best Solar Panel Price—No Surprises</b><br>We believe clarity builds trust. Whether you're a homeowner or business owner, we provide a detailed quote that balances performance and value—so you always get the best solar panel price for your needs.</li>
+                                 <li><p></p><span>✅ </span><b>Tailored Designs for Every Roof</b><br>Every installation is customized to your space, usage pattern, and budget. From small homes to large industrial roofs—we make it work for you.</li>
+                              </ul>
+                              <p></p>
+
+                              <h4>💰 Understanding Solar Panel Rates in India</h4>
+                              <p>Solar panel rates depend on several factors, including:</p>
+                              <ul>
+                                 <li><span>1. </span>Panel type (Monocrystalline, Polycrystalline, Bifacial)</li>
+                                 <li><span>2. </span>System size and location</li>
+                                 <li><span>3. </span>Additional equipment like inverters and batteries</li>
+                                 <li><span>4. </span>Rooftop structure and electrical upgrades</li>
+                              </ul>
+                              <p>💡 As of now, the typical solar panel price ranges between ₹28 – ₹35 per watt, including components, installation, and warranties.</p>
+                              <p>We also guide you through government subsidies and EMI options to make solar even more accessible.</p>
+
+                              <h4>⚙️ Our Hassle-Free 5-Step Installation Process</h4>
+                              <ul>
+                                 <li><span>1. </span>Free Site Visit & Consultation — We assess your rooftop and energy needs.</li>
+                                 <li><span>2. </span>Personalized Proposal — Get a system designed around your budget and energy goals—featuring the best solar panel price options.</li>
+                                 <li><span>3. </span>Complete Paperwork Assistance — We handle all documentation for subsidies, net metering, and approvals.</li>
+                                 <li><span>4. </span>Professional Installation — Installed by trained technicians using certified components from Tata Power Solar.</li>
+                                 <li><span>5. </span>After-Sales Support & Maintenance — Ongoing health checks and dedicated customer service for lasting peace of mind.</li>
+                              </ul>
+                              <p></p>
+
+                              <h4>🌿 Build a Cleaner Future with the Best Solar Panel Price</h4>
+                              <p>Choosing the best solar panel doesn’t have to be overwhelming or expensive. At Surya Mitra, we make solar feel personal, reliable, and worth every rupee. If you're searching for accurate solar panel rates and long-term savings, we're ready to help.</p>
+
+                              <h4>🚀 Let’s make clean energy work for you—starting with the best solar panel price.</h4>
+                              <p>📞 Call Us: 1800 889 6542<br>📧 <a href="mailto:sales@suryamitra.co.in">sales@suryamitra.co.in</a><br>🌐 Try our online solar calculator to check your potential savings instantly!</p>
+
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+      </div>
+   </div>
+</div>
+
+    
+      <?php include __DIR__ . '/footer.php'; ?>
+<!--End pagewrapper-->
+      <!--Scroll to top-->
+      <div class="scroll-to-top scroll-to-target" data-target="html"><span class="fa fa-angle-up"></span></div>
+      <!--Scroll to top-->
+      <script src="js/jquery.js"></script>
+      <script src="js/popper.min.js"></script>
+      <script src="js/bootstrap.min.js"></script>
+      <!--Revolution Slider-->
+     
+      <!--Revolution Slider-->
+      <script src="js/jquery-ui.js"></script>
+      <script src="js/jquery.fancybox.js"></script>
+      <script src="js/owl.js"></script>
+      <script src="js/wow.js"></script>
+      <script src="js/appear.js"></script>
+      <script src="js/script.js"></script>
+   </body>
+
+<!-- Mirrored from www.suryamitra.co.in/about by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 14 Aug 2020 10:01:29 GMT -->
+</html>
